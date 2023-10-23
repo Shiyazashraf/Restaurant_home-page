@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#content {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: white;
+    font-size: 30px;
+}
+
+.header nav {
+    display: flex;
+    gap: 1rem; 
+    padding: 10px;
+}
+
+.button-nav {
+    font-size: 24px;
+    padding: 5px 10px;
+}
+.main {
+    height: 100vh;
+    width: 100%;
+    background-color: blue;
+}
